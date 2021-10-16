@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function geturl() {
+        var url = 'https://' + encodeURIComponent(location.host);
+        if (location.protocol == 'http:') {
+            window.location.href = url;
+        }
+    }
+    geturl();
+</script>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Yuzi Websites</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.jpg" rel="icon">
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+
+    <!-- =======================================================
+  * Template Name: OnePage - v4.3.0
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body onload="Start()">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="index.html">Yuzi.tw</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li class="dropdown"><a href="#"><span>Website</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a class="nav-link scrollto" href="https://cloud.yuzi.tw:8002">Backup Server</a></li>
+                            <li><a class="nav-link scrollto" href="https://server.yuzi.tw:8010">Server</a></li>
+                            <li><a class="nav-link scrollto" href="https://jupyterlab.yuzi.tw" id=nav_ju_check>Jupyter
+                                    Lab</a></li>
+                            <li class="dropdown"><a href="#"><span class="iconify" data-icon="icon-park-outline:router"
+                                        data-width="20" data-height="20"></span>Router<i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="http://as302t-router.yuzi.tw">Backup Router</a></li>
+                                    <li><a href="http://server-router.yuzi.tw">Server Router</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="https://webmail.gandi.net/SOGo/">WebMail</a></li>
+                    <li class="dropdown"><a href="#"><span>Other</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a class="nav-link scrollto" href="https://bt-transmission.yuzi.tw">Transmission<span
+                                        class="iconify" data-icon="la:raspberry-pi" data-width="20"
+                                        data-height="20"></span></a></li>
+                            <li><a class="nav-link scrollto" href="https://pi4-Netdata.yuzi.tw">Netdata<span
+                                        class="iconify" data-icon="la:raspberry-pi" data-width="20"
+                                        data-height="20"></span></a></li>
+                            <li><a class="nav-link scrollto" href="https://server.yuzi.tw:5488">Jupyter<span
+                                        class="iconify" data-icon="la:raspberry-pi" data-width="20"
+                                        data-height="20"></span></a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Start Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 text-center">
+                    <!-- <h1>Yuzi.tw Guide Website</h1> -->
+                    <h1 id="showbox"></h1>
+                    <!-- <h1 id="showboxTime"></h1> -->
+                    <h1 id="showboxTimeh"></h1>
+                    <h1 id="showboxTimem"></h1>
+                    <h1 id="showboxTimes"></h1>
+                    <h2>Press Start to browse yuzi.tw's websites.</h2><br></h2>
+                </div>
+            </div>
+            <!-- <div class="container position-relative">
+        <div class="d-flex justify-content-center">
+          <div class="searchbar">
+            <form name="search_form">
+              <input class="search_input" type="text" name="search_text" placeholder="Google Search...">
+              <a href="" onClick="google_search()" class="search_icon" id=search_icon><i
+                  class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div> -->
+
+            <!-- </div> -->
+            <div class="text-center">
+                <a href="#main" class="btn-get-started scrollto">Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Start -->
+
+    <main id="main">
+        <!-- ======= Start Item ======= -->
+        <section id="item">
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+                <div class="row icon-boxes">
+
+                    <div class="col-lg-6 col-md-6 align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon1">
+                                <h4 class='ri-stack-line'>
+                                    <!-- <span class="iconify" data-icon="mdi:alert"></span> -->
+                                    <a href="https://cloud.yuzi.tw:8002">Backup Server
+                                </h4></a>
+                            </div>
+                            <p class="newdescription">Asustor NAS. Use to backup and sync data.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon2">
+                                <h4 class="bi bi-server">
+                                    <a href="https://server.yuzi.tw:8010"> Server
+                                </h4></a>
+                            </div>
+                            <p class="newdescription">
+                                Server stored important data,like code,HDD,etc...</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 align-items-stretch mt-4 mt-md-5" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon3">
+                                <h4>
+                                    <span class="iconify" data-icon="logos:jupyter" data-width="30"
+                                        data-height="50"></span>
+                                    <a href="https://server.yuzi.tw:5487" id=jupyter_check_url>&nbsp; Jupyter lab
+                                </h4></a>
+                            </div>
+                            <p class="newdescription">
+                                Use RTX2070 PC to build.
+                            </p>
+                            <p class="newdescription" id=jupyter_check>Need to Remote turn on.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 align-items-stretch mt-4 mt-md-5" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon4">
+                                <h4>
+                                    <span class="iconify" data-icon="icon-park-outline:router" data-width="50"
+                                        data-height="50" style="color: rgb(221, 18, 160);"></span>
+                                    <a href="#services"> Router
+                                </h4></a>
+                            </div>
+                            <p class="newdescription">
+                                Enter to Mange Every Routers Setting.<br>(Can Wake on Lan.)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End item -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Routers</h2>
+                    <p class="section-title">Every Routers in Here.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 align-items-stretchmt-4 mt-md-0" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="icon-box iconbox-blue">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <h4><a href="http://as302t-router.yuzi.tw"> Router with Backup Server</a></h4>
+                            <p>This Router control Backup Server's Network.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box iconbox-orange ">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <h4><a href="http://server-router.yuzi.tw">Router with Server</a></h4>
+                            <p>This Router control PC and Server Network.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Sevices Section -->
+    </main>
+    <!--End #main -->
+
+    <footer id="footer">
+        <div class="container d-md-flex py-4">
+            <div class="me-md-auto text-center text-md-start">
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+                    Designed by <u>Yuzi</u>.
+                </div>
+                <div class="copyright">
+                    &copy; Copyright OnePage.<br>
+                    <p>Updated 2021/8/22</p>
+                </div>
+            </div>
+
+            <div id="contact" class="social-links text-center text-md-right pt-3 pt-md-0">
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+                <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+                <a href="mailto: PinYu@yuzi.tw" class="google-plus"><i class="bi bi-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/yuzirin" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script language="JavaScript">
+        function ShowTime() {
+            var color = ['red', 'blue', 'black'];
+            var radom = Math.floor(Math.random() * color.length + 1) - 1;
+            var NowDate = new Date();
+            var PastDate = new Date(NowDate - 1000);
+            var M = calDate(NowDate.getMonth());
+            var d = addzero(NowDate.getDate());
+            var h = addzero(NowDate.getHours());
+            var m = addzero(NowDate.getMinutes());
+            var s = addzero(NowDate.getSeconds());
+            document.getElementById('showbox').innerHTML = 'Today is  ' + M + ' ' + d + '.<br>';
+            document.getElementById('showbox').style.color = '#a2d80d';
+            document.getElementById('showboxTimeh').innerHTML = h + ':';
+            if (h != PastDate.getHours()) {
+                document.getElementById('showboxTimeh').style.color = color[radom];
+            } else {
+                document.getElementById('showboxTimeh').style.color = '#a2d80d';
+            }
+            document.getElementById('showboxTimem').innerHTML = m + ':';
+            if (m != PastDate.getMinutes()) {
+                document.getElementById('showboxTimem').style.color = color[radom];
+            } else {
+                document.getElementById('showboxTimem').style.color = '#a2d80d';
+            }
+            document.getElementById('showboxTimes').innerHTML = s;
+            if (s != PastDate.getSeconds()) {
+                document.getElementById('showboxTimes').style.color = color[radom];
+            }
+            setTimeout('ShowTime()', 1000);
+        }
+
+        function addzero(s) {
+            if (s < 10) {
+                s = '0' + s.toString();
+            }
+            return s;
+        }
+
+        function calDate(num) {
+            var month = new Array(12);
+            month[0] = "Jan";
+            month[1] = "Feb";
+            month[2] = "Mar";
+            month[3] = "Apr";
+            month[4] = "May";
+            month[5] = "Jun";
+            month[6] = "Jul";
+            month[7] = "Aug";
+            month[8] = "Sep";
+            month[9] = "Oct";
+            month[10] = "Nov";
+            month[11] = "Dec";
+            return month[num];
+        }
+
+        function google_search() {
+            text = document.search_form.search_text.value;
+            if (text.length <= 0) {
+                document.getElementById('search_icon').href = '#';
+            } else {
+                var g_url = 'https://www.google.com/search?q=' + encodeURIComponent(text);
+                document.getElementById('search_icon').href = g_url;
+            }
+        }
+
+        function Urlcheck() {
+            const req = new Request('https://server.yuzi.tw:5487');
+            const url = 'https://server.yuzi.tw:5487';
+            // req.
+            try {
+                fetch(req, {
+                    mode: 'no-cors'
+                })
+                    .then(function (response) {
+                        document.getElementById('nav_ju_check').innerHTML = 'Jupyter Lab (ON)';
+                        document.getElementById('jupyter_check').innerHTML = 'Can Access!! (Need Password).';
+                        document.getElementById('jupyter_check_url').innerHTML = 'Jupyter Lab';
+                        document.getElementById('jupyter_check_url').href = url;
+                        document.getElementById('nav_ju_check').href = url;
+                    });
+            } finally {
+                document.getElementById('nav_ju_check').innerHTML = 'Jupyter Lab (OFF)';
+                document.getElementById('jupyter_check').innerHTML = 'Need to Remote turn on.';
+                document.getElementById('jupyter_check_url').innerHTML = 'Jupyter Lab (OFF)';
+                document.getElementById('nav_ju_check').href = '#';
+                document.getElementById('jupyter_check_url').href = '#contact';
+            }
+        }
+
+        function Start() {
+            ShowTime();
+            Urlcheck();
+        }
+    </script>
+</body>
+
+</html>
